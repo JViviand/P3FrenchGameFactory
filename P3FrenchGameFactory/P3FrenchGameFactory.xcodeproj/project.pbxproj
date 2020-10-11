@@ -55,11 +55,11 @@
 		934C50B525339624001B20EB /* Sabre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sabre.swift; sourceTree = "<group>"; };
 		934C50B82533965C001B20EB /* Personnage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Personnage.swift; path = Personnage/Personnage.swift; sourceTree = "<group>"; };
 		934C50BB253396B6001B20EB /* Bowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bowser.swift; path = Personnage/Bowser.swift; sourceTree = "<group>"; };
-		934C50BF253396CD001B20EB /* Luigi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luigi.swift; sourceTree = "<group>"; };
-		934C50C2253396E4001B20EB /* Mario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mario.swift; sourceTree = "<group>"; };
-		934C50C5253396FB001B20EB /* Peach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peach.swift; sourceTree = "<group>"; };
-		934C50C825339714001B20EB /* Toad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toad.swift; sourceTree = "<group>"; };
-		934C50CB2533972B001B20EB /* Yoshi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yoshi.swift; sourceTree = "<group>"; };
+		934C50BF253396CD001B20EB /* Luigi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Luigi.swift; path = Personnage/Luigi.swift; sourceTree = "<group>"; };
+		934C50C2253396E4001B20EB /* Mario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Mario.swift; path = Personnage/Mario.swift; sourceTree = "<group>"; };
+		934C50C5253396FB001B20EB /* Peach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Peach.swift; path = Personnage/Peach.swift; sourceTree = "<group>"; };
+		934C50C825339714001B20EB /* Toad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Toad.swift; path = Personnage/Toad.swift; sourceTree = "<group>"; };
+		934C50CB2533972B001B20EB /* Yoshi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Yoshi.swift; path = Personnage/Yoshi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
