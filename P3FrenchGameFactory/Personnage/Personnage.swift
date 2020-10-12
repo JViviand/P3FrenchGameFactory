@@ -9,12 +9,12 @@ import Foundation
 
 class Personnage {
     var nom: String
-    var nombrevie: int
-    var armes : armes
+    var nombreVie: Int
+    var armes: Armes
     
-    init (nom: String, nombrevie: int) {
+    init (nom: String, nombreVie: Int,armes: Armes) {
         self.nom = nom
-        self.nombrevie = nombrevie
+        self.nombreVie = nombreVie
         self.armes = armes
     }
 }

@@ -9,9 +9,9 @@ import Foundation
 
 class Armes {
     var nom: String
-    var dommage: int
+    var dommage: Int
     
-    init (nom: String,dommage: int) {
+    init (nom: String,dommage: Int){
         self.nom = nom
         self.dommage = dommage
     }

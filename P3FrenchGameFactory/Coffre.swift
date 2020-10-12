@@ -7,6 +7,6 @@
 
 import Foundation
 
-class Coffre: armes {
+class Coffre: Armes {
    
 }
