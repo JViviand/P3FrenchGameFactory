@@ -9,6 +9,6 @@ import Foundation
 
 class Sabre : Armes {
     init (){
-        super.init(nom: "Sabre",dommage: 30)
+        super.init (nom: "Sabre",dommage: 30)
     }
 }

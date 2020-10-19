@@ -9,6 +9,6 @@ import Foundation
 
 class Peach : Personnage {
     init(){
-        super.init (nom: "Peach", nombrevie: 50)
+        super.init (nom: "Peach", pointDevie: 100, attaquer: 8)
     }
 }

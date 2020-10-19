@@ -9,6 +9,6 @@ import Foundation
 
 class Bouteille : Armes {
     init (){
-        super.init(nom: "Bouteille",dommage: 5)
+        super.init (nom: "Bouteille",dommage: 5)
     }
 }

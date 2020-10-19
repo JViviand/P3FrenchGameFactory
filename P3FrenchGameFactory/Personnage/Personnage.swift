@@ -8,13 +8,19 @@
 import Foundation
 
 class Personnage {
-    var nom: String
-    var nombreVie: Int
-    var armes: Armes
+    var nom: String = ""
+    var pointDevie: Int = 0
+    var attaquer: Int = 0
     
-    init (nom: String, nombreVie: Int,armes: Armes) {
+    init (nom: String, pointDevie: Int, attaquer: Int){
         self.nom = nom
-        self.nombreVie = nombreVie
-        self.armes = armes
+        self.pointDevie = pointDevie
+        self.attaquer = attaquer
+    }
+    func Attaquer() -> String {
+        return("attaquer")
+    }
+    func Subiattaque() -> String {
+      return("subi attaque")
     }
 }

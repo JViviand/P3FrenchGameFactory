@@ -9,6 +9,6 @@ import Foundation
 
 class Yoshi : Personnage {
     init(){
-        super.init (nom: "Yoshi", nombrevie: 50)
+        super.init (nom: "Yoshi", pointDevie: 100, attaquer: 12)
     }
 }

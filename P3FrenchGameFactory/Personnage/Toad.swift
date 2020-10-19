@@ -9,6 +9,6 @@ import Foundation
 
 class Toad : Personnage {
     init(){
-        super.init (nom: "Toad", nombrevie: 50)
+        super.init (nom: "Toad", pointDevie: 100, attaquer: 10)
     }
 }
