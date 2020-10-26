@@ -8,5 +8,10 @@
 import Foundation
 
 class Joueur {
+    var tableauDespersonnage = [Personnage]()
+    var tableauDesarmes = [Armes]()
+    
     
 }
+
+

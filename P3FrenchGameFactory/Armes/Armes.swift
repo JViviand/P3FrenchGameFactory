@@ -8,8 +8,8 @@
 import Foundation
 
 class Armes {
-    var nom: String = ""
-    var dommage: Int = 0
+    var nom: String
+    var dommage: Int
     
     init (nom: String, dommage: Int) {
         self.nom = nom
