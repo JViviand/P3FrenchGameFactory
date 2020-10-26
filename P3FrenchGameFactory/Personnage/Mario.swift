@@ -8,7 +8,7 @@
 import Foundation
 
 class Mario : Personnage {
-    init(){
-        super.init (nom: "Mario", pointDevie: 100, attaquer: 6)
+    init(nom: String){
+        super.init (nom: "Mario", pointDevie: 100, arme: Couteau())
     }
 }

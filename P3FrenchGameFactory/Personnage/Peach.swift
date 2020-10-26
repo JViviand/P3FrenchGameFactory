@@ -8,7 +8,7 @@
 import Foundation
 
 class Peach : Personnage {
-    init(){
-        super.init (nom: "Peach", pointDevie: 100, attaquer: 8)
+    init(nom: String){
+        super.init (nom: "Peach", pointDevie: 100, arme: Hâche())
     }
 }

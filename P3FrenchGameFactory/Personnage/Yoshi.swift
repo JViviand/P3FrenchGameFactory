@@ -8,7 +8,7 @@
 import Foundation
 
 class Yoshi : Personnage {
-    init(){
-        super.init (nom: "Yoshi", pointDevie: 100, attaquer: 12)
+    init(nom: String){
+        super.init (nom: "Yoshi", pointDevie: 100, arme: Sabre())
     }
 }

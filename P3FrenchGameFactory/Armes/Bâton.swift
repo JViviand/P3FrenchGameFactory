@@ -1,5 +1,5 @@
 //
-//  Bouteille.swift
+//  Battes de Baseball.swift
 //  P3FrenchGameFactory
 //
 //  Created by Jeremy viviand on 11/10/2020.
@@ -7,8 +7,9 @@
 
 import Foundation
 
-class Bouteille : Armes {
+class Bâton : Armes {
     init(){
-        super.init (nom: "Bouteille",dommage: 5)
+        super.init (nom: "Bâton", dommage: 5)
     }
+    
 }

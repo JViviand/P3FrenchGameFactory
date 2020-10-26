@@ -8,7 +8,7 @@
 import Foundation
 
 class Couteau : Armes {
-    init (){
+    init(){
         super.init (nom: "Couteau",dommage: 10)
     }
 }

@@ -7,9 +7,9 @@
 
 import Foundation
 
-class Battes_De_Baseball : Armes {
-    init (){
-        super.init (nom: "Battes_De_Baseball", dommage: 5)
+class Bâton : Armes {
+    init(){
+        super.init (nom: "Bâton", dommage: 5)
     }
     
 }

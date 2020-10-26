@@ -5,7 +5,5 @@
 //  Created by Jeremy viviand on 11/10/2020.
 
 class Jeu {
-    // choix des personnages et des armes
     
-    // 
 }

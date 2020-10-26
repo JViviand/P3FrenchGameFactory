@@ -8,7 +8,7 @@
 import Foundation
 
 class Bowser : Personnage {
-    init(){
-        super.init (nom: "Bowser", pointDevie: 100, attaquer: 2)
+    init(nom: String){
+        super.init (nom: "Bowser", pointDevie: 100, arme: Bâton())
     }
 }

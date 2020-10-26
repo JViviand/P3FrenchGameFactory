@@ -18,7 +18,7 @@
 		934C509E2533955E001B20EB /* Coffre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C509D2533955E001B20EB /* Coffre.swift */; };
 		934C50A12533956F001B20EB /* Jeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50A02533956F001B20EB /* Jeu.swift */; };
 		934C50A42533957E001B20EB /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50A32533957D001B20EB /* Joueur.swift */; };
-		934C50A7253395B5001B20EB /* Battes de Baseball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50A6253395B5001B20EB /* Battes de Baseball.swift */; };
+		934C50A7253395B5001B20EB /* Bâton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50A6253395B5001B20EB /* Bâton.swift */; };
 		934C50AA253395CC001B20EB /* Bouteille.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50A9253395CC001B20EB /* Bouteille.swift */; };
 		934C50AD253395E0001B20EB /* Couteau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50AC253395E0001B20EB /* Couteau.swift */; };
 		934C50B0253395F7001B20EB /* Hâche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50AF253395F7001B20EB /* Hâche.swift */; };
@@ -47,7 +47,7 @@
 		934C509D2533955E001B20EB /* Coffre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffre.swift; sourceTree = "<group>"; };
 		934C50A02533956F001B20EB /* Jeu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeu.swift; sourceTree = "<group>"; };
 		934C50A32533957D001B20EB /* Joueur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
-		934C50A6253395B5001B20EB /* Battes de Baseball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Battes de Baseball.swift"; sourceTree = "<group>"; };
+		934C50A6253395B5001B20EB /* Bâton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bâton.swift"; sourceTree = "<group>"; };
 		934C50A9253395CC001B20EB /* Bouteille.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bouteille.swift; sourceTree = "<group>"; };
 		934C50AC253395E0001B20EB /* Couteau.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Couteau.swift; sourceTree = "<group>"; };
 		934C50AF253395F7001B20EB /* Hâche.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hâche.swift"; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				934C5095253394FA001B20EB /* Armes.swift */,
-				934C50A6253395B5001B20EB /* Battes de Baseball.swift */,
+				934C50A6253395B5001B20EB /* Bâton.swift */,
 				934C50A9253395CC001B20EB /* Bouteille.swift */,
 				934C50AC253395E0001B20EB /* Couteau.swift */,
 				934C50AF253395F7001B20EB /* Hâche.swift */,
@@ -219,7 +219,7 @@
 				934C50CC2533972B001B20EB /* Yoshi.swift in Sources */,
 				934C509A2533954D001B20EB /* Main.swift in Sources */,
 				934C50AA253395CC001B20EB /* Bouteille.swift in Sources */,
-				934C50A7253395B5001B20EB /* Battes de Baseball.swift in Sources */,
+				934C50A7253395B5001B20EB /* Bâton.swift in Sources */,
 				934C50C3253396E4001B20EB /* Mario.swift in Sources */,
 				934C50B92533965C001B20EB /* Personnage.swift in Sources */,
 				934C50A42533957E001B20EB /* Joueur.swift in Sources */,

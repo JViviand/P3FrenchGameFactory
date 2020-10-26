@@ -8,7 +8,7 @@
 import Foundation
 
 class Toad : Personnage {
-    init(){
-        super.init (nom: "Toad", pointDevie: 100, attaquer: 10)
+    init(nom: String){
+        super.init (nom: "Toad", pointDevie: 100, arme: Pistolet())
     }
 }

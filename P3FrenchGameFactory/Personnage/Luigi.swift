@@ -8,7 +8,7 @@
 import Foundation
 
 class Luigi : Personnage {
-    init(){
-        super.init (nom: "Luigi", pointDevie: 100, attaquer: 4)
+    init(nom: String){
+        super.init (nom: "Luigi", pointDevie: 100, arme: Bouteille())
     }
 }
