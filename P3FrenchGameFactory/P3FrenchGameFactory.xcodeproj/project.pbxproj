@@ -7,63 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		934C507A25339398001B20EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C507925339398001B20EB /* AppDelegate.swift */; };
-		934C507C25339398001B20EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C507B25339398001B20EB /* SceneDelegate.swift */; };
-		934C507E25339398001B20EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C507D25339398001B20EB /* ViewController.swift */; };
-		934C508125339398001B20EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934C507F25339398001B20EB /* Main.storyboard */; };
-		934C508325339399001B20EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934C508225339399001B20EB /* Assets.xcassets */; };
-		934C508625339399001B20EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934C508425339399001B20EB /* LaunchScreen.storyboard */; };
-		934C5096253394FA001B20EB /* Armes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C5095253394FA001B20EB /* Armes.swift */; };
-		934C509A2533954D001B20EB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50992533954D001B20EB /* Main.swift */; };
-		934C509E2533955E001B20EB /* Coffre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C509D2533955E001B20EB /* Coffre.swift */; };
-		934C50A12533956F001B20EB /* Jeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50A02533956F001B20EB /* Jeu.swift */; };
-		934C50A42533957E001B20EB /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50A32533957D001B20EB /* Joueur.swift */; };
-		934C50A7253395B5001B20EB /* Bâton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50A6253395B5001B20EB /* Bâton.swift */; };
-		934C50AA253395CC001B20EB /* Bouteille.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50A9253395CC001B20EB /* Bouteille.swift */; };
-		934C50AD253395E0001B20EB /* Couteau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50AC253395E0001B20EB /* Couteau.swift */; };
-		934C50B0253395F7001B20EB /* Hâche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50AF253395F7001B20EB /* Hâche.swift */; };
-		934C50B32533960C001B20EB /* Pistolet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50B22533960C001B20EB /* Pistolet.swift */; };
-		934C50B625339624001B20EB /* Sabre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50B525339624001B20EB /* Sabre.swift */; };
-		934C50B92533965C001B20EB /* Personnage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50B82533965C001B20EB /* Personnage.swift */; };
-		934C50BC253396B6001B20EB /* Bowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50BB253396B6001B20EB /* Bowser.swift */; };
-		934C50C0253396CD001B20EB /* Luigi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50BF253396CD001B20EB /* Luigi.swift */; };
-		934C50C3253396E4001B20EB /* Mario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50C2253396E4001B20EB /* Mario.swift */; };
-		934C50C6253396FB001B20EB /* Peach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50C5253396FB001B20EB /* Peach.swift */; };
-		934C50C925339714001B20EB /* Toad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50C825339714001B20EB /* Toad.swift */; };
-		934C50CC2533972B001B20EB /* Yoshi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C50CB2533972B001B20EB /* Yoshi.swift */; };
+		9371887F254D8D6D00EA8C80 /* Personnage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371887E254D8D6D00EA8C80 /* Personnage.swift */; };
+		93718882254D8D7300EA8C80 /* Bowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718881254D8D7300EA8C80 /* Bowser.swift */; };
+		93718885254D8D7700EA8C80 /* Luigi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718884254D8D7700EA8C80 /* Luigi.swift */; };
+		93718888254D8D7E00EA8C80 /* Mario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718887254D8D7E00EA8C80 /* Mario.swift */; };
+		9371888B254D8D8200EA8C80 /* Peach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371888A254D8D8200EA8C80 /* Peach.swift */; };
+		9371888E254D8D8700EA8C80 /* Toad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371888D254D8D8700EA8C80 /* Toad.swift */; };
+		93718891254D8D8C00EA8C80 /* Yoshi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718890254D8D8C00EA8C80 /* Yoshi.swift */; };
+		93718894254D8D9500EA8C80 /* Armes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718893254D8D9500EA8C80 /* Armes.swift */; };
+		93718897254D8D9900EA8C80 /* Bâton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718896254D8D9900EA8C80 /* Bâton.swift */; };
+		9371889A254D8D9E00EA8C80 /* Bouteille.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718899254D8D9E00EA8C80 /* Bouteille.swift */; };
+		9371889D254D8DA400EA8C80 /* Couteau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371889C254D8DA400EA8C80 /* Couteau.swift */; };
+		937188A0254D8DA800EA8C80 /* Hâche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371889F254D8DA800EA8C80 /* Hâche.swift */; };
+		937188A3254D8DAC00EA8C80 /* Pistolet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188A2254D8DAC00EA8C80 /* Pistolet.swift */; };
+		937188A6254D8DB000EA8C80 /* Sabre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188A5254D8DB000EA8C80 /* Sabre.swift */; };
+		937188A9254D8DB400EA8C80 /* Coffre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188A8254D8DB400EA8C80 /* Coffre.swift */; };
+		937188AC254D8DBE00EA8C80 /* Jeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AB254D8DBE00EA8C80 /* Jeu.swift */; };
+		937188AF254D8DC600EA8C80 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AE254D8DC500EA8C80 /* Joueur.swift */; };
+		93FC3C95254D8C0500D3427E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC3C94254D8C0500D3427E /* main.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		93FC3C8F254D8C0500D3427E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		934C507625339398001B20EB /* P3FrenchGameFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P3FrenchGameFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		934C507925339398001B20EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		934C507B25339398001B20EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		934C507D25339398001B20EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		934C508025339398001B20EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		934C508225339399001B20EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		934C508525339399001B20EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		934C508725339399001B20EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		934C5095253394FA001B20EB /* Armes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armes.swift; sourceTree = "<group>"; };
-		934C50992533954D001B20EB /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		934C509D2533955E001B20EB /* Coffre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffre.swift; sourceTree = "<group>"; };
-		934C50A02533956F001B20EB /* Jeu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeu.swift; sourceTree = "<group>"; };
-		934C50A32533957D001B20EB /* Joueur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
-		934C50A6253395B5001B20EB /* Bâton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bâton.swift"; sourceTree = "<group>"; };
-		934C50A9253395CC001B20EB /* Bouteille.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bouteille.swift; sourceTree = "<group>"; };
-		934C50AC253395E0001B20EB /* Couteau.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Couteau.swift; sourceTree = "<group>"; };
-		934C50AF253395F7001B20EB /* Hâche.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hâche.swift"; sourceTree = "<group>"; };
-		934C50B22533960C001B20EB /* Pistolet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pistolet.swift; sourceTree = "<group>"; };
-		934C50B525339624001B20EB /* Sabre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sabre.swift; sourceTree = "<group>"; };
-		934C50B82533965C001B20EB /* Personnage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Personnage.swift; path = Personnage/Personnage.swift; sourceTree = "<group>"; };
-		934C50BB253396B6001B20EB /* Bowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bowser.swift; path = Personnage/Bowser.swift; sourceTree = "<group>"; };
-		934C50BF253396CD001B20EB /* Luigi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Luigi.swift; path = Personnage/Luigi.swift; sourceTree = "<group>"; };
-		934C50C2253396E4001B20EB /* Mario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Mario.swift; path = Personnage/Mario.swift; sourceTree = "<group>"; };
-		934C50C5253396FB001B20EB /* Peach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Peach.swift; path = Personnage/Peach.swift; sourceTree = "<group>"; };
-		934C50C825339714001B20EB /* Toad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Toad.swift; path = Personnage/Toad.swift; sourceTree = "<group>"; };
-		934C50CB2533972B001B20EB /* Yoshi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Yoshi.swift; path = Personnage/Yoshi.swift; sourceTree = "<group>"; };
+		9371887E254D8D6D00EA8C80 /* Personnage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personnage.swift; sourceTree = "<group>"; };
+		93718881254D8D7300EA8C80 /* Bowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bowser.swift; sourceTree = "<group>"; };
+		93718884254D8D7700EA8C80 /* Luigi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Luigi.swift; sourceTree = "<group>"; };
+		93718887254D8D7E00EA8C80 /* Mario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mario.swift; sourceTree = "<group>"; };
+		9371888A254D8D8200EA8C80 /* Peach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peach.swift; sourceTree = "<group>"; };
+		9371888D254D8D8700EA8C80 /* Toad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toad.swift; sourceTree = "<group>"; };
+		93718890254D8D8C00EA8C80 /* Yoshi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yoshi.swift; sourceTree = "<group>"; };
+		93718893254D8D9500EA8C80 /* Armes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Armes.swift; sourceTree = "<group>"; };
+		93718896254D8D9900EA8C80 /* Bâton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bâton.swift"; sourceTree = "<group>"; };
+		93718899254D8D9E00EA8C80 /* Bouteille.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bouteille.swift; sourceTree = "<group>"; };
+		9371889C254D8DA400EA8C80 /* Couteau.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Couteau.swift; sourceTree = "<group>"; };
+		9371889F254D8DA800EA8C80 /* Hâche.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hâche.swift"; sourceTree = "<group>"; };
+		937188A2254D8DAC00EA8C80 /* Pistolet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pistolet.swift; sourceTree = "<group>"; };
+		937188A5254D8DB000EA8C80 /* Sabre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sabre.swift; sourceTree = "<group>"; };
+		937188A8254D8DB400EA8C80 /* Coffre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coffre.swift; sourceTree = "<group>"; };
+		937188AB254D8DBE00EA8C80 /* Jeu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jeu.swift; sourceTree = "<group>"; };
+		937188AE254D8DC500EA8C80 /* Joueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
+		93FC3C91254D8C0500D3427E /* P3FrenchGameFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P3FrenchGameFactory; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FC3C94254D8C0500D3427E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		934C507325339398001B20EB /* Frameworks */ = {
+		93FC3C8E254D8C0500D3427E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,113 +72,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		934C506D25339398001B20EB = {
+		93FC3C88254D8C0500D3427E = {
 			isa = PBXGroup;
 			children = (
-				934C508E253393F5001B20EB /* PROJET 3 */,
-				934C507825339398001B20EB /* P3FrenchGameFactory */,
-				934C507725339398001B20EB /* Products */,
+				93FC3C93254D8C0500D3427E /* P3FrenchGameFactory */,
+				93FC3C92254D8C0500D3427E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		934C507725339398001B20EB /* Products */ = {
+		93FC3C92254D8C0500D3427E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				934C507625339398001B20EB /* P3FrenchGameFactory.app */,
+				93FC3C91254D8C0500D3427E /* P3FrenchGameFactory */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		934C507825339398001B20EB /* P3FrenchGameFactory */ = {
+		93FC3C93254D8C0500D3427E /* P3FrenchGameFactory */ = {
 			isa = PBXGroup;
 			children = (
-				934C507925339398001B20EB /* AppDelegate.swift */,
-				934C507B25339398001B20EB /* SceneDelegate.swift */,
-				934C507D25339398001B20EB /* ViewController.swift */,
-				934C507F25339398001B20EB /* Main.storyboard */,
-				934C508225339399001B20EB /* Assets.xcassets */,
-				934C508425339399001B20EB /* LaunchScreen.storyboard */,
-				934C508725339399001B20EB /* Info.plist */,
+				93FC3C94254D8C0500D3427E /* main.swift */,
+				9371887E254D8D6D00EA8C80 /* Personnage.swift */,
+				93718881254D8D7300EA8C80 /* Bowser.swift */,
+				93718884254D8D7700EA8C80 /* Luigi.swift */,
+				93718887254D8D7E00EA8C80 /* Mario.swift */,
+				9371888A254D8D8200EA8C80 /* Peach.swift */,
+				9371888D254D8D8700EA8C80 /* Toad.swift */,
+				93718890254D8D8C00EA8C80 /* Yoshi.swift */,
+				93718893254D8D9500EA8C80 /* Armes.swift */,
+				93718896254D8D9900EA8C80 /* Bâton.swift */,
+				93718899254D8D9E00EA8C80 /* Bouteille.swift */,
+				9371889C254D8DA400EA8C80 /* Couteau.swift */,
+				9371889F254D8DA800EA8C80 /* Hâche.swift */,
+				937188A2254D8DAC00EA8C80 /* Pistolet.swift */,
+				937188A5254D8DB000EA8C80 /* Sabre.swift */,
+				937188A8254D8DB400EA8C80 /* Coffre.swift */,
+				937188AB254D8DBE00EA8C80 /* Jeu.swift */,
+				937188AE254D8DC500EA8C80 /* Joueur.swift */,
 			);
 			path = P3FrenchGameFactory;
-			sourceTree = "<group>";
-		};
-		934C508E253393F5001B20EB /* PROJET 3 */ = {
-			isa = PBXGroup;
-			children = (
-				934C509025339448001B20EB /* Personnages */,
-				934C508F2533943B001B20EB /* Armes */,
-				934C50992533954D001B20EB /* Main.swift */,
-				934C509D2533955E001B20EB /* Coffre.swift */,
-				934C50A02533956F001B20EB /* Jeu.swift */,
-				934C50A32533957D001B20EB /* Joueur.swift */,
-			);
-			name = "PROJET 3";
-			sourceTree = "<group>";
-		};
-		934C508F2533943B001B20EB /* Armes */ = {
-			isa = PBXGroup;
-			children = (
-				934C5095253394FA001B20EB /* Armes.swift */,
-				934C50A6253395B5001B20EB /* Bâton.swift */,
-				934C50A9253395CC001B20EB /* Bouteille.swift */,
-				934C50AC253395E0001B20EB /* Couteau.swift */,
-				934C50AF253395F7001B20EB /* Hâche.swift */,
-				934C50B22533960C001B20EB /* Pistolet.swift */,
-				934C50B525339624001B20EB /* Sabre.swift */,
-			);
-			path = Armes;
-			sourceTree = "<group>";
-		};
-		934C509025339448001B20EB /* Personnages */ = {
-			isa = PBXGroup;
-			children = (
-				934C50B82533965C001B20EB /* Personnage.swift */,
-				934C50BB253396B6001B20EB /* Bowser.swift */,
-				934C50BF253396CD001B20EB /* Luigi.swift */,
-				934C50C2253396E4001B20EB /* Mario.swift */,
-				934C50C5253396FB001B20EB /* Peach.swift */,
-				934C50C825339714001B20EB /* Toad.swift */,
-				934C50CB2533972B001B20EB /* Yoshi.swift */,
-			);
-			name = Personnages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		934C507525339398001B20EB /* P3FrenchGameFactory */ = {
+		93FC3C90254D8C0500D3427E /* P3FrenchGameFactory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 934C508A25339399001B20EB /* Build configuration list for PBXNativeTarget "P3FrenchGameFactory" */;
+			buildConfigurationList = 93FC3C98254D8C0500D3427E /* Build configuration list for PBXNativeTarget "P3FrenchGameFactory" */;
 			buildPhases = (
-				934C507225339398001B20EB /* Sources */,
-				934C507325339398001B20EB /* Frameworks */,
-				934C507425339398001B20EB /* Resources */,
+				93FC3C8D254D8C0500D3427E /* Sources */,
+				93FC3C8E254D8C0500D3427E /* Frameworks */,
+				93FC3C8F254D8C0500D3427E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = P3FrenchGameFactory;
-			productName = P3FrenchGameFactory;
-			productReference = 934C507625339398001B20EB /* P3FrenchGameFactory.app */;
-			productType = "com.apple.product-type.application";
+			productName = FrenchGameFactory2;
+			productReference = 93FC3C91254D8C0500D3427E /* P3FrenchGameFactory */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		934C506E25339398001B20EB /* Project object */ = {
+		93FC3C89254D8C0500D3427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					934C507525339398001B20EB = {
+					93FC3C90254D8C0500D3427E = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 934C507125339398001B20EB /* Build configuration list for PBXProject "P3FrenchGameFactory" */;
+			buildConfigurationList = 93FC3C8C254D8C0500D3427E /* Build configuration list for PBXProject "P3FrenchGameFactory" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,81 +155,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 934C506D25339398001B20EB;
-			productRefGroup = 934C507725339398001B20EB /* Products */;
+			mainGroup = 93FC3C88254D8C0500D3427E;
+			productRefGroup = 93FC3C92254D8C0500D3427E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				934C507525339398001B20EB /* P3FrenchGameFactory */,
+				93FC3C90254D8C0500D3427E /* P3FrenchGameFactory */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		934C507425339398001B20EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				934C508625339399001B20EB /* LaunchScreen.storyboard in Resources */,
-				934C508325339399001B20EB /* Assets.xcassets in Resources */,
-				934C508125339398001B20EB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		934C507225339398001B20EB /* Sources */ = {
+		93FC3C8D254D8C0500D3427E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				934C50B32533960C001B20EB /* Pistolet.swift in Sources */,
-				934C50CC2533972B001B20EB /* Yoshi.swift in Sources */,
-				934C509A2533954D001B20EB /* Main.swift in Sources */,
-				934C50AA253395CC001B20EB /* Bouteille.swift in Sources */,
-				934C50A7253395B5001B20EB /* Bâton.swift in Sources */,
-				934C50C3253396E4001B20EB /* Mario.swift in Sources */,
-				934C50B92533965C001B20EB /* Personnage.swift in Sources */,
-				934C50A42533957E001B20EB /* Joueur.swift in Sources */,
-				934C507E25339398001B20EB /* ViewController.swift in Sources */,
-				934C507A25339398001B20EB /* AppDelegate.swift in Sources */,
-				934C50C925339714001B20EB /* Toad.swift in Sources */,
-				934C50B0253395F7001B20EB /* Hâche.swift in Sources */,
-				934C50BC253396B6001B20EB /* Bowser.swift in Sources */,
-				934C5096253394FA001B20EB /* Armes.swift in Sources */,
-				934C50C6253396FB001B20EB /* Peach.swift in Sources */,
-				934C50C0253396CD001B20EB /* Luigi.swift in Sources */,
-				934C50A12533956F001B20EB /* Jeu.swift in Sources */,
-				934C509E2533955E001B20EB /* Coffre.swift in Sources */,
-				934C507C25339398001B20EB /* SceneDelegate.swift in Sources */,
-				934C50AD253395E0001B20EB /* Couteau.swift in Sources */,
-				934C50B625339624001B20EB /* Sabre.swift in Sources */,
+				93718888254D8D7E00EA8C80 /* Mario.swift in Sources */,
+				9371888E254D8D8700EA8C80 /* Toad.swift in Sources */,
+				93718891254D8D8C00EA8C80 /* Yoshi.swift in Sources */,
+				93718897254D8D9900EA8C80 /* Bâton.swift in Sources */,
+				937188AC254D8DBE00EA8C80 /* Jeu.swift in Sources */,
+				93718885254D8D7700EA8C80 /* Luigi.swift in Sources */,
+				937188A0254D8DA800EA8C80 /* Hâche.swift in Sources */,
+				93FC3C95254D8C0500D3427E /* main.swift in Sources */,
+				937188A6254D8DB000EA8C80 /* Sabre.swift in Sources */,
+				937188A3254D8DAC00EA8C80 /* Pistolet.swift in Sources */,
+				9371889D254D8DA400EA8C80 /* Couteau.swift in Sources */,
+				93718894254D8D9500EA8C80 /* Armes.swift in Sources */,
+				9371889A254D8D9E00EA8C80 /* Bouteille.swift in Sources */,
+				937188A9254D8DB400EA8C80 /* Coffre.swift in Sources */,
+				9371888B254D8D8200EA8C80 /* Peach.swift in Sources */,
+				9371887F254D8D6D00EA8C80 /* Personnage.swift in Sources */,
+				93718882254D8D7300EA8C80 /* Bowser.swift in Sources */,
+				937188AF254D8DC600EA8C80 /* Joueur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		934C507F25339398001B20EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				934C508025339398001B20EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		934C508425339399001B20EB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				934C508525339399001B20EB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		934C508825339399001B20EB /* Debug */ = {
+		93FC3C96254D8C0500D3427E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -312,17 +245,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		934C508925339399001B20EB /* Release */ = {
+		93FC3C97254D8C0500D3427E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,74 +300,55 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		934C508B25339399001B20EB /* Debug */ = {
+		93FC3C99254D8C0500D3427E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = P3FrenchGameFactory/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ViviandJeremy.P3FrenchGameFactory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		934C508C25339399001B20EB /* Release */ = {
+		93FC3C9A254D8C0500D3427E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = P3FrenchGameFactory/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ViviandJeremy.P3FrenchGameFactory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		934C507125339398001B20EB /* Build configuration list for PBXProject "P3FrenchGameFactory" */ = {
+		93FC3C8C254D8C0500D3427E /* Build configuration list for PBXProject "P3FrenchGameFactory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				934C508825339399001B20EB /* Debug */,
-				934C508925339399001B20EB /* Release */,
+				93FC3C96254D8C0500D3427E /* Debug */,
+				93FC3C97254D8C0500D3427E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		934C508A25339399001B20EB /* Build configuration list for PBXNativeTarget "P3FrenchGameFactory" */ = {
+		93FC3C98254D8C0500D3427E /* Build configuration list for PBXNativeTarget "P3FrenchGameFactory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				934C508B25339399001B20EB /* Debug */,
-				934C508C25339399001B20EB /* Release */,
+				93FC3C99254D8C0500D3427E /* Debug */,
+				93FC3C9A254D8C0500D3427E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 934C506E25339398001B20EB /* Project object */;
+	rootObject = 93FC3C89254D8C0500D3427E /* Project object */;
 }
