@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Pistolet : Armes {
+class Pistolet : Arme {
     init(){
         super.init (nom: "Pistolet",dommage: 20)
     }

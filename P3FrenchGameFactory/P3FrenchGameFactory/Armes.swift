@@ -8,7 +8,7 @@
 import Foundation
 // les armes ont un nom et inflige des dommages a un autre personnage
 
-class Armes {
+class Arme {
     var nom: String
     var dommage: Int
     

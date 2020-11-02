@@ -24,6 +24,7 @@
 		937188A9254D8DB400EA8C80 /* Coffre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188A8254D8DB400EA8C80 /* Coffre.swift */; };
 		937188AC254D8DBE00EA8C80 /* Jeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AB254D8DBE00EA8C80 /* Jeu.swift */; };
 		937188AF254D8DC600EA8C80 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AE254D8DC500EA8C80 /* Joueur.swift */; };
+		937B3D4F254FF83300A2211D /* Test des fonctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B3D4E254FF83300A2211D /* Test des fonctions.swift */; };
 		93FC3C95254D8C0500D3427E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC3C94254D8C0500D3427E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		937188A8254D8DB400EA8C80 /* Coffre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coffre.swift; sourceTree = "<group>"; };
 		937188AB254D8DBE00EA8C80 /* Jeu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jeu.swift; sourceTree = "<group>"; };
 		937188AE254D8DC500EA8C80 /* Joueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
+		937B3D4E254FF83300A2211D /* Test des fonctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test des fonctions.swift"; sourceTree = "<group>"; };
 		93FC3C91254D8C0500D3427E /* P3FrenchGameFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P3FrenchGameFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FC3C94254D8C0500D3427E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +111,7 @@
 				937188A8254D8DB400EA8C80 /* Coffre.swift */,
 				937188AB254D8DBE00EA8C80 /* Jeu.swift */,
 				937188AE254D8DC500EA8C80 /* Joueur.swift */,
+				937B3D4E254FF83300A2211D /* Test des fonctions.swift */,
 			);
 			path = P3FrenchGameFactory;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				93718888254D8D7E00EA8C80 /* Mario.swift in Sources */,
 				9371888E254D8D8700EA8C80 /* Toad.swift in Sources */,
 				93718891254D8D8C00EA8C80 /* Yoshi.swift in Sources */,
+				937B3D4F254FF83300A2211D /* Test des fonctions.swift in Sources */,
 				93718897254D8D9900EA8C80 /* Bâton.swift in Sources */,
 				937188AC254D8DBE00EA8C80 /* Jeu.swift in Sources */,
 				93718885254D8D7700EA8C80 /* Luigi.swift in Sources */,

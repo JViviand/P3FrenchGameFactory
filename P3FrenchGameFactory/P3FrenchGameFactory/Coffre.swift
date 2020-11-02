@@ -7,6 +7,9 @@
 
 import Foundation
 
-class Coffre: Armes {
-    
+class Coffre {
+    func RandomArmes() -> Arme {
+        let tableauArme = [Bâton(), Bouteille(), Couteau(), Hâche(), Pistolet(), Sabre()]
+      return tableauArme.randomElement()!
+    }
 }
