@@ -11,4 +11,8 @@ class Toad : Personnage {
     init(nom: String){
         super.init (nom: "Toad", pointDevie: 100, arme: Pistolet())
     }
+    func Presentation() {
+        print("\(nom) a \(pointDevie) de point de vie et combat avec \(arme)")
+    }
+    
 }

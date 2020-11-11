@@ -18,8 +18,16 @@ class Personnage {
         self.pointDevie = pointDevie
         self.arme = arme
     }
-    // le personnage vas avoir comme fonction d'attaquer un autre personnage avec une armes
-    func Attaquer(Personnage: Personnage) {
-        Personnage.pointDevie -= self.arme.dommage
+    // La fonction d'attaque permet a un personnage d'infliger des dommages a l'adversaire
+    // parametre cible : retour de personnage cible pour attaque
+    func Attaquer(cible: Personnage) {
+        cible.pointDevie -= self.arme.dommage
+        // verifie si le personnage est vivant
+        if cible.pointDevie <= 0 {
+            cible.pointDevie = 0
+            print("\(nom) n'a plus de vie")
+        }
+        // statistique de l'attaque
+        print("\(self.nom) attaque \(cible.nom) et lui a inflige \(self.arme.dommage) point de vie. \(cible.nom) a maintenant \(cible.pointDevie) point de vie.")
     }
 }

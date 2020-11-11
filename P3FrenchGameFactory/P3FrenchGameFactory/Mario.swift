@@ -11,4 +11,8 @@ class Mario : Personnage {
     init(nom: String){
         super.init (nom: "Mario", pointDevie: 100, arme: Couteau())
     }
+    func Presentation() {
+        print("\(nom) a \(pointDevie) de point de vie et combat avec \(arme)")
+    }
+    
 }
