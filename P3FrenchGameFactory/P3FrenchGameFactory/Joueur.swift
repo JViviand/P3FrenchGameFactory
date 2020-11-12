@@ -11,13 +11,12 @@ class Joueur {
     var joueurNumero: Int
     var team = [Personnage]()
     var nomTeam = [String]()
-    var tableauPersonnage = [Any]()
     init(joueurNumero: Int) {
         self.joueurNumero = joueurNumero
         }
         
     func NomEquipe() -> String {
-            print("Merci de saisir le nom de l'equipe")
+            print("Merci de saisir le nom de votre équipe")
             if let nomDeEquipe = readLine() {
                 if nomTeam.contains(nomDeEquipe) {
                     print("le nom que vous avez choisi est deja utilisé")
@@ -29,8 +28,10 @@ class Joueur {
         }
         
     func creationTeam() {
-        print("veuiller saisir le nom de votre equipe")
         // je veut que le joueur puisse afficher le nom de l'equipe avec la fonction NomEquipe
+        let nomEquipeEcrire = NomEquipe()
+        print(nomEquipeEcrire)
+        
         while team.count < 3 {
                 print("""
                     je vous laisse choisir 3 personnage dans la liste :
@@ -67,8 +68,9 @@ class Joueur {
             }
         }
     }
-    // fonction qui vas permettre au joueur de choisir un des personnage dans le tableau ou il a choisi ses 3 personnages
+    // fonction qui vas afficher un des 3 personnage selectionner aleatoirement qui vas combattre
     func selectionPersonnage(team: [Personnage]) -> Personnage {
-       
+        print("un des 3 personnage choisi vas combattre")
+        return team.randomElement()!
     }
 }

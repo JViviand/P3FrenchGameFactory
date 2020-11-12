@@ -14,4 +14,20 @@ class jeu {
         joueur1 = Joueur(joueurNumero: 1)
         joueur2 = Joueur(joueurNumero: 2)
     }
+    // fonction pour verifier le nombre de Personnage en vie
+    func joueurEnVie(joueur: Joueur) -> Bool {
+      
+    }
+    // fonction pour verifer a quel tour le jeu est
+    func tourDuJEu() ->  {
+    }
+    //fonction de combat entre un personnage du joueur 1 et un personnage du joueur 2
+    func combat() ->  {
+        
+    }
+    // statistique de combat
+    func statistique() ->  {
+        
+    }
 }
+
