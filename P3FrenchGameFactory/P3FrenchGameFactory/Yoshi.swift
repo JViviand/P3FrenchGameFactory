@@ -11,8 +11,4 @@ class Yoshi : Personnage {
     init(nom: String){
         super.init (nom: "Yoshi", pointDevie: 100, arme: Sabre())
     }
-    func Presentation() {
-        print("\(nom) a \(pointDevie) de point de vie et combat avec \(arme)")
-    }
-    
 }

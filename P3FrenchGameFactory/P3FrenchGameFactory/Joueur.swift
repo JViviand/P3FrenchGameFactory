@@ -15,7 +15,7 @@ class Joueur {
         self.joueurNumero = joueurNumero
         }
         
-    func NomEquipe() -> String {
+    private func NomEquipe() -> String {
             print("Merci de saisir le nom de votre équipe")
             if let nomDeEquipe = readLine() {
                 if nomTeam.contains(nomDeEquipe) {
@@ -35,34 +35,34 @@ class Joueur {
         while team.count < 3 {
                 print("""
                     je vous laisse choisir 3 personnage dans la liste :
-                    1 - \(String(describing: Bowser.Presentation))
-                    2 - \(String(describing: Luigi.Presentation))
-                    3 - \(String(describing: Mario.Presentation))
-                    4 - \(String(describing: Peach.Presentation))
-                    5 - \(String(describing: Toad.Presentation))
-                    6 - \(String(describing: Yoshi.Presentation))
+                    1 - Bowser avec 100 point de vie et combat avec un bâton
+                    2 - Luigi avec 100 point de vie et combat avec une bouteille
+                    3 - Mario avec 100 point de vie et combat avec un couteau
+                    4 - Peach avec 100 point de vie et combat avec une hâche
+                    5 - Toad avec 100 point de vie et combat avec un pistolet
+                    6 - Yoshi avec 100 point de vie et combat avec un sabre
                     """)
             let choix = readLine()
             switch choix {
             case "1":
                 print("tu as choisi Bowser")
                 // je veut que le choix du personnage soit ajouter dans un tableau vide
-                team.append(Bowser.init(nom: "Bowser"))
+                team.append(Bowser(nom: "Bowser"))
             case "2":
                 print("tu as choisi Luigi")
-                team.append(Luigi.init(nom: "Luigi"))
+                team.append(Luigi(nom: "Luigi"))
             case "3":
                 print("tu as choisi Mario")
-                team.append(Mario.init(nom: "Mario"))
+                team.append(Mario(nom: "Mario"))
             case "4":
                 print("tu as choisi Peach")
-                team.append(Peach.init(nom: "Peach"))
+                team.append(Peach(nom: "Peach"))
             case "5":
                 print("tu as choisi Toad")
-                team.append(Toad.init(nom: "Toad"))
+                team.append(Toad(nom: "Toad"))
             case "6":
                 print("tu as choisi Yoshi")
-                team.append(Yoshi.init(nom: "Yoshi"))
+                team.append(Yoshi(nom: "Yoshi"))
             default:
                 print("Votre choix n'est pas valide..")
             }

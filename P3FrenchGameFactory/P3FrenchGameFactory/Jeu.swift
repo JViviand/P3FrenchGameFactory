@@ -16,17 +16,17 @@ class jeu {
     }
     // fonction pour verifier le nombre de Personnage en vie
     func joueurEnVie(joueur: Joueur) -> Bool {
-      
+      return false
     }
     // fonction pour verifer a quel tour le jeu est
-    func tourDuJEu() ->  {
+    func tourDuJEu() {
     }
     //fonction de combat entre un personnage du joueur 1 et un personnage du joueur 2
-    func combat() ->  {
+    func combat() -> Void {
         
     }
     // statistique de combat
-    func statistique() ->  {
+    func statistique() -> Void {
         
     }
 }
