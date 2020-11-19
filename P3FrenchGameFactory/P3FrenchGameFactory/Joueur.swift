@@ -11,6 +11,7 @@ class Joueur {
     var joueurNumero: Int
     var team = [Personnage]()
     var nomTeam = [String]()
+    var nomPerso = [String]()
     init(joueurNumero: Int) {
         self.joueurNumero = joueurNumero
         }
@@ -26,7 +27,19 @@ class Joueur {
             }
             return NomEquipe()
         }
-        
+    
+    func nomPersonnage() -> String {
+        print("je vous laisse choisir un nouveau nom a ce personnage")
+        if let nomDuPersonnage = readLine() {
+            if nomPerso.contains(nomDuPersonnage) {
+                print("le nom que vous avez choisi est deja utilisé")
+                return nomPersonnage()
+            }
+            return nomDuPersonnage
+        }
+        return nomPersonnage()
+    }
+
     func creationTeam() {
         // je veut que le joueur puisse afficher le nom de l'equipe avec la fonction NomEquipe
         let nomEquipeEcrire = NomEquipe()
@@ -46,26 +59,39 @@ class Joueur {
             switch choix {
             case "1":
                 print("tu as choisi Bowser")
-                // je veut que le choix du personnage soit ajouter dans un tableau vide
+                let nomHero = nomPersonnage()
+                print(nomHero)
                 team.append(Bowser(nom: "Bowser"))
             case "2":
                 print("tu as choisi Luigi")
+                let nomHero = nomPersonnage()
+                print(nomHero)
                 team.append(Luigi(nom: "Luigi"))
             case "3":
                 print("tu as choisi Mario")
+                let nomHero = nomPersonnage()
+                print(nomHero)
                 team.append(Mario(nom: "Mario"))
             case "4":
                 print("tu as choisi Peach")
+                let nomHero = nomPersonnage()
+                print(nomHero)
                 team.append(Peach(nom: "Peach"))
             case "5":
                 print("tu as choisi Toad")
+                let nomHero = nomPersonnage()
+                print(nomHero)
                 team.append(Toad(nom: "Toad"))
             case "6":
                 print("tu as choisi Yoshi")
+                let nomHero = nomPersonnage()
+                print(nomHero)
                 team.append(Yoshi(nom: "Yoshi"))
             default:
                 print("Votre choix n'est pas valide..")
             }
+            let selection = selectionPersonnage(team: team)
+            print("vous aller combattre avec \(selection)")
         }
     }
     // fonction qui vas afficher un des 3 personnage selectionner aleatoirement qui vas combattre

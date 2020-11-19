@@ -12,4 +12,5 @@ class Coffre {
         let tableauArme = [Bâton(), Bouteille(), Couteau(), Hâche(), Pistolet(), Sabre()]
       return tableauArme.randomElement()!
     }
+    
 }
