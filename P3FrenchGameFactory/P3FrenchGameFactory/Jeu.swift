@@ -99,7 +99,7 @@ class jeu {
                     print("Le joueur 2 a gagné !")
                 }
                  print("Le nombre de tours : \(nombreTour)")
-                 print("Les personnages morts sont :")
+        print("Les personnages morts sont : \(tableauJoueurMort)")
         }
 }
 

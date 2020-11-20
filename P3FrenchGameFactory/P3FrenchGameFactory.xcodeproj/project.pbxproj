@@ -21,10 +21,8 @@
 		937188A0254D8DA800EA8C80 /* Hâche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371889F254D8DA800EA8C80 /* Hâche.swift */; };
 		937188A3254D8DAC00EA8C80 /* Pistolet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188A2254D8DAC00EA8C80 /* Pistolet.swift */; };
 		937188A6254D8DB000EA8C80 /* Sabre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188A5254D8DB000EA8C80 /* Sabre.swift */; };
-		937188A9254D8DB400EA8C80 /* Coffre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188A8254D8DB400EA8C80 /* Coffre.swift */; };
 		937188AC254D8DBE00EA8C80 /* Jeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AB254D8DBE00EA8C80 /* Jeu.swift */; };
 		937188AF254D8DC600EA8C80 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AE254D8DC500EA8C80 /* Joueur.swift */; };
-		937B3D4F254FF83300A2211D /* Test des fonctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B3D4E254FF83300A2211D /* Test des fonctions.swift */; };
 		93FC3C95254D8C0500D3427E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC3C94254D8C0500D3427E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,10 +53,8 @@
 		9371889F254D8DA800EA8C80 /* Hâche.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hâche.swift"; sourceTree = "<group>"; };
 		937188A2254D8DAC00EA8C80 /* Pistolet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pistolet.swift; sourceTree = "<group>"; };
 		937188A5254D8DB000EA8C80 /* Sabre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sabre.swift; sourceTree = "<group>"; };
-		937188A8254D8DB400EA8C80 /* Coffre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coffre.swift; sourceTree = "<group>"; };
 		937188AB254D8DBE00EA8C80 /* Jeu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jeu.swift; sourceTree = "<group>"; };
 		937188AE254D8DC500EA8C80 /* Joueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
-		937B3D4E254FF83300A2211D /* Test des fonctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test des fonctions.swift"; sourceTree = "<group>"; };
 		93FC3C91254D8C0500D3427E /* P3FrenchGameFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P3FrenchGameFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FC3C94254D8C0500D3427E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,10 +104,8 @@
 				9371889F254D8DA800EA8C80 /* Hâche.swift */,
 				937188A2254D8DAC00EA8C80 /* Pistolet.swift */,
 				937188A5254D8DB000EA8C80 /* Sabre.swift */,
-				937188A8254D8DB400EA8C80 /* Coffre.swift */,
 				937188AB254D8DBE00EA8C80 /* Jeu.swift */,
 				937188AE254D8DC500EA8C80 /* Joueur.swift */,
-				937B3D4E254FF83300A2211D /* Test des fonctions.swift */,
 			);
 			path = P3FrenchGameFactory;
 			sourceTree = "<group>";
@@ -176,7 +170,6 @@
 				93718888254D8D7E00EA8C80 /* Mario.swift in Sources */,
 				9371888E254D8D8700EA8C80 /* Toad.swift in Sources */,
 				93718891254D8D8C00EA8C80 /* Yoshi.swift in Sources */,
-				937B3D4F254FF83300A2211D /* Test des fonctions.swift in Sources */,
 				93718897254D8D9900EA8C80 /* Bâton.swift in Sources */,
 				937188AC254D8DBE00EA8C80 /* Jeu.swift in Sources */,
 				93718885254D8D7700EA8C80 /* Luigi.swift in Sources */,
@@ -187,7 +180,6 @@
 				9371889D254D8DA400EA8C80 /* Couteau.swift in Sources */,
 				93718894254D8D9500EA8C80 /* Armes.swift in Sources */,
 				9371889A254D8D9E00EA8C80 /* Bouteille.swift in Sources */,
-				937188A9254D8DB400EA8C80 /* Coffre.swift in Sources */,
 				9371888B254D8D8200EA8C80 /* Peach.swift in Sources */,
 				9371887F254D8D6D00EA8C80 /* Personnage.swift in Sources */,
 				93718882254D8D7300EA8C80 /* Bowser.swift in Sources */,
