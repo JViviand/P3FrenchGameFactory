@@ -7,6 +7,6 @@
 
 import Foundation
 
-let test = Joueur(joueurNumero: 1)
-test.creationTeam()
+let test = jeu()
 
+test.start()

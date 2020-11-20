@@ -81,10 +81,12 @@ class jeu {
         }
     }
     func fight (attaque: Joueur, recoit: Joueur) {
+        let attaqueJoueur = attaque.selectionPersonnage(team: attaque.team)
+        let cibleJoueur = attaque.selectionPersonnage(team: recoit.team)
+        attaqueJoueur.Attaquer(cible: cibleJoueur)
         if nombreTour == 2 {
             coffreAleatoire()
         }
-        
     }
     
     // statistique de combat

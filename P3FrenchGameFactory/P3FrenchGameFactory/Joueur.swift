@@ -90,8 +90,6 @@ class Joueur {
             default:
                 print("Votre choix n'est pas valide..")
             }
-            let selection = selectionPersonnage(team: team)
-            print("vous aller combattre avec \(selection)")
         }
     }
     // fonction qui vas afficher un des 3 personnage selectionner aleatoirement qui vas combattre
