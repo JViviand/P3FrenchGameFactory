@@ -6,15 +6,16 @@
 //
 
 import Foundation
+
 // les armes ont un nom et inflige des dommages a un autre personnage
 
-class Arme {
-    var nom: String
-    var dommage: Int
+class Weapon {
+    var name: String
+    var damage: Int
     
-    init (nom: String, dommage: Int) {
-        self.nom = nom
-        self.dommage = dommage
+    init (name: String, damage: Int) {
+        self.name = name
+        self.damage = damage
     }
     
 }

@@ -8,5 +8,3 @@
 import Foundation
 
 let test = jeu()
-
-test.start()

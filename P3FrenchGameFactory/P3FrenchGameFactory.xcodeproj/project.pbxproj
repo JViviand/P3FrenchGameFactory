@@ -7,22 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9371887F254D8D6D00EA8C80 /* Personnage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371887E254D8D6D00EA8C80 /* Personnage.swift */; };
-		93718882254D8D7300EA8C80 /* Bowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718881254D8D7300EA8C80 /* Bowser.swift */; };
-		93718885254D8D7700EA8C80 /* Luigi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718884254D8D7700EA8C80 /* Luigi.swift */; };
-		93718888254D8D7E00EA8C80 /* Mario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718887254D8D7E00EA8C80 /* Mario.swift */; };
-		9371888B254D8D8200EA8C80 /* Peach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371888A254D8D8200EA8C80 /* Peach.swift */; };
-		9371888E254D8D8700EA8C80 /* Toad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371888D254D8D8700EA8C80 /* Toad.swift */; };
-		93718891254D8D8C00EA8C80 /* Yoshi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718890254D8D8C00EA8C80 /* Yoshi.swift */; };
-		93718894254D8D9500EA8C80 /* Armes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718893254D8D9500EA8C80 /* Armes.swift */; };
-		93718897254D8D9900EA8C80 /* Bâton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718896254D8D9900EA8C80 /* Bâton.swift */; };
-		9371889A254D8D9E00EA8C80 /* Bouteille.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718899254D8D9E00EA8C80 /* Bouteille.swift */; };
-		9371889D254D8DA400EA8C80 /* Couteau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371889C254D8DA400EA8C80 /* Couteau.swift */; };
-		937188A0254D8DA800EA8C80 /* Hâche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371889F254D8DA800EA8C80 /* Hâche.swift */; };
-		937188A3254D8DAC00EA8C80 /* Pistolet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188A2254D8DAC00EA8C80 /* Pistolet.swift */; };
-		937188A6254D8DB000EA8C80 /* Sabre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188A5254D8DB000EA8C80 /* Sabre.swift */; };
+		9371887F254D8D6D00EA8C80 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371887E254D8D6D00EA8C80 /* Character.swift */; };
+		93718894254D8D9500EA8C80 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718893254D8D9500EA8C80 /* Weapon.swift */; };
 		937188AC254D8DBE00EA8C80 /* Jeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AB254D8DBE00EA8C80 /* Jeu.swift */; };
 		937188AF254D8DC600EA8C80 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AE254D8DC500EA8C80 /* Joueur.swift */; };
+		9382B69D256A7EEA00237440 /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382B69C256A7EEA00237440 /* Dragon.swift */; };
+		9382B6A0256A819800237440 /* Elf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382B69F256A819800237440 /* Elf.swift */; };
+		9382B6A4256A827400237440 /* Dwarfs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382B6A3256A827400237440 /* Dwarfs.swift */; };
+		9382B6B9256A8A7300237440 /* Fire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382B6B8256A8A7300237440 /* Fire.swift */; };
+		9382B6BD256A8B1B00237440 /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382B6BC256A8B1B00237440 /* Arc.swift */; };
+		9382B6C1256A8B9700237440 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382B6C0256A8B9700237440 /* Sword.swift */; };
 		93FC3C95254D8C0500D3427E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC3C94254D8C0500D3427E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,22 +33,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9371887E254D8D6D00EA8C80 /* Personnage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personnage.swift; sourceTree = "<group>"; };
-		93718881254D8D7300EA8C80 /* Bowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bowser.swift; sourceTree = "<group>"; };
-		93718884254D8D7700EA8C80 /* Luigi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Luigi.swift; sourceTree = "<group>"; };
-		93718887254D8D7E00EA8C80 /* Mario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mario.swift; sourceTree = "<group>"; };
-		9371888A254D8D8200EA8C80 /* Peach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peach.swift; sourceTree = "<group>"; };
-		9371888D254D8D8700EA8C80 /* Toad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toad.swift; sourceTree = "<group>"; };
-		93718890254D8D8C00EA8C80 /* Yoshi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yoshi.swift; sourceTree = "<group>"; };
-		93718893254D8D9500EA8C80 /* Armes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Armes.swift; sourceTree = "<group>"; };
-		93718896254D8D9900EA8C80 /* Bâton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bâton.swift"; sourceTree = "<group>"; };
-		93718899254D8D9E00EA8C80 /* Bouteille.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bouteille.swift; sourceTree = "<group>"; };
-		9371889C254D8DA400EA8C80 /* Couteau.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Couteau.swift; sourceTree = "<group>"; };
-		9371889F254D8DA800EA8C80 /* Hâche.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hâche.swift"; sourceTree = "<group>"; };
-		937188A2254D8DAC00EA8C80 /* Pistolet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pistolet.swift; sourceTree = "<group>"; };
-		937188A5254D8DB000EA8C80 /* Sabre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sabre.swift; sourceTree = "<group>"; };
+		9371887E254D8D6D00EA8C80 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		93718893254D8D9500EA8C80 /* Weapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
 		937188AB254D8DBE00EA8C80 /* Jeu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jeu.swift; sourceTree = "<group>"; };
 		937188AE254D8DC500EA8C80 /* Joueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
+		9382B69C256A7EEA00237440 /* Dragon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		9382B69F256A819800237440 /* Elf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elf.swift; sourceTree = "<group>"; };
+		9382B6A3256A827400237440 /* Dwarfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dwarfs.swift; sourceTree = "<group>"; };
+		9382B6B8256A8A7300237440 /* Fire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fire.swift; sourceTree = "<group>"; };
+		9382B6BC256A8B1B00237440 /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		9382B6C0256A8B9700237440 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
 		93FC3C91254D8C0500D3427E /* P3FrenchGameFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P3FrenchGameFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FC3C94254D8C0500D3427E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,20 +78,14 @@
 			isa = PBXGroup;
 			children = (
 				93FC3C94254D8C0500D3427E /* main.swift */,
-				9371887E254D8D6D00EA8C80 /* Personnage.swift */,
-				93718881254D8D7300EA8C80 /* Bowser.swift */,
-				93718884254D8D7700EA8C80 /* Luigi.swift */,
-				93718887254D8D7E00EA8C80 /* Mario.swift */,
-				9371888A254D8D8200EA8C80 /* Peach.swift */,
-				9371888D254D8D8700EA8C80 /* Toad.swift */,
-				93718890254D8D8C00EA8C80 /* Yoshi.swift */,
-				93718893254D8D9500EA8C80 /* Armes.swift */,
-				93718896254D8D9900EA8C80 /* Bâton.swift */,
-				93718899254D8D9E00EA8C80 /* Bouteille.swift */,
-				9371889C254D8DA400EA8C80 /* Couteau.swift */,
-				9371889F254D8DA800EA8C80 /* Hâche.swift */,
-				937188A2254D8DAC00EA8C80 /* Pistolet.swift */,
-				937188A5254D8DB000EA8C80 /* Sabre.swift */,
+				9371887E254D8D6D00EA8C80 /* Character.swift */,
+				9382B69C256A7EEA00237440 /* Dragon.swift */,
+				9382B69F256A819800237440 /* Elf.swift */,
+				9382B6A3256A827400237440 /* Dwarfs.swift */,
+				93718893254D8D9500EA8C80 /* Weapon.swift */,
+				9382B6B8256A8A7300237440 /* Fire.swift */,
+				9382B6BC256A8B1B00237440 /* Arc.swift */,
+				9382B6C0256A8B9700237440 /* Sword.swift */,
 				937188AB254D8DBE00EA8C80 /* Jeu.swift */,
 				937188AE254D8DC500EA8C80 /* Joueur.swift */,
 			);
@@ -167,22 +149,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93718888254D8D7E00EA8C80 /* Mario.swift in Sources */,
-				9371888E254D8D8700EA8C80 /* Toad.swift in Sources */,
-				93718891254D8D8C00EA8C80 /* Yoshi.swift in Sources */,
-				93718897254D8D9900EA8C80 /* Bâton.swift in Sources */,
+				9382B6B9256A8A7300237440 /* Fire.swift in Sources */,
 				937188AC254D8DBE00EA8C80 /* Jeu.swift in Sources */,
-				93718885254D8D7700EA8C80 /* Luigi.swift in Sources */,
-				937188A0254D8DA800EA8C80 /* Hâche.swift in Sources */,
+				9382B6A4256A827400237440 /* Dwarfs.swift in Sources */,
 				93FC3C95254D8C0500D3427E /* main.swift in Sources */,
-				937188A6254D8DB000EA8C80 /* Sabre.swift in Sources */,
-				937188A3254D8DAC00EA8C80 /* Pistolet.swift in Sources */,
-				9371889D254D8DA400EA8C80 /* Couteau.swift in Sources */,
-				93718894254D8D9500EA8C80 /* Armes.swift in Sources */,
-				9371889A254D8D9E00EA8C80 /* Bouteille.swift in Sources */,
-				9371888B254D8D8200EA8C80 /* Peach.swift in Sources */,
-				9371887F254D8D6D00EA8C80 /* Personnage.swift in Sources */,
-				93718882254D8D7300EA8C80 /* Bowser.swift in Sources */,
+				93718894254D8D9500EA8C80 /* Weapon.swift in Sources */,
+				9382B6C1256A8B9700237440 /* Sword.swift in Sources */,
+				9382B6A0256A819800237440 /* Elf.swift in Sources */,
+				9382B6BD256A8B1B00237440 /* Arc.swift in Sources */,
+				9382B69D256A7EEA00237440 /* Dragon.swift in Sources */,
+				9371887F254D8D6D00EA8C80 /* Character.swift in Sources */,
 				937188AF254D8DC600EA8C80 /* Joueur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

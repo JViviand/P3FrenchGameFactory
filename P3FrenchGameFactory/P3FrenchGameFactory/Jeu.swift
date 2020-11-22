@@ -50,7 +50,7 @@ class jeu {
             if joueurEnVie(joueur: joueur2) {
                 print("joueur 2 c'est a toi de combattre")
                 let selectionJ2 = Joueur.selectionPersonnage(joueur2)
-                print("vous aller combattre avec \(String(describing: selectionJ2))")
+                print("vous aller combattre avec \(selectionJ2))")
                 fight(attaque: joueur2, recoit: joueur1)
             }
         }
@@ -82,7 +82,7 @@ class jeu {
     }
     func fight (attaque: Joueur, recoit: Joueur) {
         let attaqueJoueur = attaque.selectionPersonnage(team: attaque.team)
-        let cibleJoueur = attaque.selectionPersonnage(team: recoit.team)
+        let cibleJoueur = recoit.selectionPersonnage(team: recoit.team)
         attaqueJoueur.Attaquer(cible: cibleJoueur)
         if nombreTour == 2 {
             coffreAleatoire()
