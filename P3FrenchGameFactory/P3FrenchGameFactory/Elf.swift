@@ -10,7 +10,7 @@ import Foundation
 // l'elfe herite de la class character
 
 class Elf : Character {
-    init(name: String){
-        super.init (name: "Elf", lifePoint: 100, weapon: Arc())
+    init(nameElf: String){
+        super.init (type: "Elf", name: nameElf, lifePoint: 100, weapon: Arc())
     }
 }

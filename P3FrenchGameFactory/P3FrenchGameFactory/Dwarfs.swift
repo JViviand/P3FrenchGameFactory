@@ -10,7 +10,7 @@ import Foundation
 // dwarfs herite de la class character
 
 class Dwarfs : Character {
-    init(name: String){
-        super.init (name: "Dwarfs", lifePoint: 100, weapon: Sword())
+    init(nameDwarfs: String){
+        super.init (type: "Dwarfs", name: nameDwarfs, lifePoint: 100, weapon: Sword())
     }
 }

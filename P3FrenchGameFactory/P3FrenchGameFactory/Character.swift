@@ -9,11 +9,13 @@ import Foundation
 // le personnage a un nom, des point de vie et peu attaquer un autre adversaire avec une armes
 
 class Character {
+    var type: String = ""
     var name: String = ""
     var lifePoint: Int = 0
     var weapon: Weapon
     
-    init (name: String, lifePoint: Int, weapon: Weapon){
+    init (type: String, name: String, lifePoint: Int, weapon: Weapon){
+        self.type = type
         self.name = name
         self.lifePoint = lifePoint
         self.weapon = weapon

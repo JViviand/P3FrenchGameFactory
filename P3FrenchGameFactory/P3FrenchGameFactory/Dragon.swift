@@ -10,7 +10,7 @@ import Foundation
 // le dragon herite de la classe character
 
 class Dragon : Character {
-    init(name: String){
-        super.init (name: "Dragon", lifePoint: 100, weapon: Fire())
+    init(nameDragon: String){
+        super.init (type: "Dragon", name: nameDragon, lifePoint: 100, weapon: Fire())
     }
 }

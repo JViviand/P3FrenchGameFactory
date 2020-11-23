@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		9371887F254D8D6D00EA8C80 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371887E254D8D6D00EA8C80 /* Character.swift */; };
 		93718894254D8D9500EA8C80 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93718893254D8D9500EA8C80 /* Weapon.swift */; };
-		937188AC254D8DBE00EA8C80 /* Jeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AB254D8DBE00EA8C80 /* Jeu.swift */; };
-		937188AF254D8DC600EA8C80 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AE254D8DC500EA8C80 /* Joueur.swift */; };
+		937188AC254D8DBE00EA8C80 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AB254D8DBE00EA8C80 /* Game.swift */; };
+		937188AF254D8DC600EA8C80 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937188AE254D8DC500EA8C80 /* Player.swift */; };
 		9382B69D256A7EEA00237440 /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382B69C256A7EEA00237440 /* Dragon.swift */; };
 		9382B6A0256A819800237440 /* Elf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382B69F256A819800237440 /* Elf.swift */; };
 		9382B6A4256A827400237440 /* Dwarfs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9382B6A3256A827400237440 /* Dwarfs.swift */; };
@@ -35,8 +35,8 @@
 /* Begin PBXFileReference section */
 		9371887E254D8D6D00EA8C80 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		93718893254D8D9500EA8C80 /* Weapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
-		937188AB254D8DBE00EA8C80 /* Jeu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jeu.swift; sourceTree = "<group>"; };
-		937188AE254D8DC500EA8C80 /* Joueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
+		937188AB254D8DBE00EA8C80 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		937188AE254D8DC500EA8C80 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		9382B69C256A7EEA00237440 /* Dragon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
 		9382B69F256A819800237440 /* Elf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elf.swift; sourceTree = "<group>"; };
 		9382B6A3256A827400237440 /* Dwarfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dwarfs.swift; sourceTree = "<group>"; };
@@ -86,8 +86,8 @@
 				9382B6B8256A8A7300237440 /* Fire.swift */,
 				9382B6BC256A8B1B00237440 /* Arc.swift */,
 				9382B6C0256A8B9700237440 /* Sword.swift */,
-				937188AB254D8DBE00EA8C80 /* Jeu.swift */,
-				937188AE254D8DC500EA8C80 /* Joueur.swift */,
+				937188AB254D8DBE00EA8C80 /* Game.swift */,
+				937188AE254D8DC500EA8C80 /* Player.swift */,
 			);
 			path = P3FrenchGameFactory;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9382B6B9256A8A7300237440 /* Fire.swift in Sources */,
-				937188AC254D8DBE00EA8C80 /* Jeu.swift in Sources */,
+				937188AC254D8DBE00EA8C80 /* Game.swift in Sources */,
 				9382B6A4256A827400237440 /* Dwarfs.swift in Sources */,
 				93FC3C95254D8C0500D3427E /* main.swift in Sources */,
 				93718894254D8D9500EA8C80 /* Weapon.swift in Sources */,
@@ -159,7 +159,7 @@
 				9382B6BD256A8B1B00237440 /* Arc.swift in Sources */,
 				9382B69D256A7EEA00237440 /* Dragon.swift in Sources */,
 				9371887F254D8D6D00EA8C80 /* Character.swift in Sources */,
-				937188AF254D8DC600EA8C80 /* Joueur.swift in Sources */,
+				937188AF254D8DC600EA8C80 /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
