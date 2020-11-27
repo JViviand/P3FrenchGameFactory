@@ -21,7 +21,7 @@ class Game {
         print("Les combats commence !!!")
         combat()
         print("La Partie est fini..")
-        statistique()
+        statistics()
     }
     // fonction pour verifier le nombre de Personnage en vie
     
@@ -40,52 +40,39 @@ class Game {
     //fonction de combat entre un personnage du joueur 1 et un personnage du joueur 2
     
     func combat() {
-        for playerCounter in (0..<Game.maximumPlayers) {
-        //                let currentPlayer = players[playerCounter]
-        //                let ennemiPlayer = players[playerCounter == 0 ? 1 : 0]
-        //                print("C'est au tour du joueur\(playerCounter + 1) de jouer")
-        //                print("Tape l'index qui correspond au numéro de ton personnage que tu veux utiliser")
-        //                displayCurrentTeam(for: currentPlayer)
-        //                for _ in (0..<currentPlayer.characters.count) {
-        //                    let character = chooseCharacter(for: currentPlayer)
-        //                    selectAttack(with: currentPlayer, character: character, versus: ennemiPlayer)
-        //                }
-        //            }
-        
-        
-        
         while playerAlive(player: player1) && playerAlive(player: player2) {
-            print("joueur 1 c'est a toi de combattre")
-            let selectionJ1 = Player.selectCharacter(player1)
-            print("vous aller combattre avec \(String(describing: selectionJ1))")
-            fight(attack: player1, receives: player2)
-            nomberRounds += 1
-            if playerAlive(player: player2) {
-                print("joueur 2 c'est a toi de combattre")
-                let selectionJ2 = Player.selectCharacter(player2)
-                print("vous aller combattre avec \(String(describing: selectionJ2)))")
+            if playerAlive(player: player1) {
+                print("joueur 1 c'est a toi de combattre !")
+                fight(attack: player1, receives: player2)
+                nomberRounds += 1
+            } else if playerAlive(player: player2) {
+                print("joueur 2 c'est a toi de combattre !")
                 fight(attack: player2, receives: player1)
+                nomberRounds += 1
             }
         }
     }
     // fonction qui propose au joueur de choisir ou non une nouvelle arme pour combattre
     
-    private func newWeapon() -> Weapon {
-        let magic = Weapon.init(name: "Magic", damage: 40)
-      return magic
+    func newWeapon() {
+        while <#condition#> {
+            <#code#>
+        }
     }
-    
     func mysteryBox() {
+        _ = Weapon.init(name: "Magic", damage: 40)
+        
         print("""
-            Vous avez trouver une Nouvelle Arme, Voulez vous l'echanger avec la votre ?
+            Vous avez trouver une Nouvelle Arme: Magic qui enleve 40 de dommage,
+            Voulez vous l'echanger avec la votre ?
             1 - OUI
             2 - NON
             """)
         let answer = readLine()
         switch answer {
         case "1":
-            let newMagic = newWeapon()
-            print("Voici votre nouvelle Arme : \(newMagic)")
+            print("Vous avez echanger votre Arme")
+            
         case "2":
             print("Vous garder votre Arme")
         default:
@@ -94,17 +81,17 @@ class Game {
         }
     }
     func fight (attack: Player, receives: Player) {
+        print("Choisi ton combattant :")
         let attackPlayer = attack.selectCharacter(team: attack.teamCharacter)
+        print("choisi ton ennemi :")
         let receivesplayer = receives.selectCharacter(team: receives.teamCharacter)
         attackPlayer.attack(target: receivesplayer)
-        if nomberRounds == 2 {
-            mysteryBox()
-        }
+        
     }
     
     // statistique de combat
     
-    func statistique() {
+    func statistics() {
         print("Ca y est toute l'equipe n'a plus de combattant !")
                 if playerAlive(player: player1) {
                     print( "Le joueur 1 a gagné !")
@@ -112,6 +99,9 @@ class Game {
                     print("Le joueur 2 a gagné !")
                 }
                  print("Le nombre de tours : \(nomberRounds)")
-        print("Les personnages morts sont : \(arrayDeadPlayer)")
+        print("Les personnages morts sont :")
+        for deadCharacter in arrayDeadPlayer {
+        print("Le personnage \(deadCharacter.name) qui est \(deadCharacter.type)")
         }
- }
+    }
+}
