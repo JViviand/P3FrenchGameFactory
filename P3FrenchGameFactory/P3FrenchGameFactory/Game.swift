@@ -16,7 +16,9 @@ class Game {
     }
     // fonction start
     func start() {
+        print("Bienvenue dans un jeu de combat ou vous aller devoir choisir 3 personnage pour combattre : le dragon, l'elf ou le nain et gagner la partie !! attention dans le combat vous aller pouvoir tomber sur une boite mystere avec une nouvelle arme plus puissante, pret à combattre ?")
         player1.createTeam()
+        player2.newNameCharacter = player1.newNameCharacter
         player2.createTeam()
         print("Les combats commence !!!")
         combat()
@@ -54,16 +56,12 @@ class Game {
     }
     // fonction qui propose au joueur de choisir ou non une nouvelle arme pour combattre
     
-    func newWeapon() {
-        while <#condition#> {
-            <#code#>
-        }
+    func newWeapon(character: Character) {
+        character.weapon = Weapon(name: "Magic", damage: 50)
     }
-    func mysteryBox() {
-        _ = Weapon.init(name: "Magic", damage: 40)
-        
+    func mysteryBox(character: Character) {
         print("""
-            Vous avez trouver une Nouvelle Arme: Magic qui enleve 40 de dommage,
+            Vous avez trouver une Nouvelle Arme: Magic qui enleve 50 de dommage,
             Voulez vous l'echanger avec la votre ?
             1 - OUI
             2 - NON
@@ -71,18 +69,21 @@ class Game {
         let answer = readLine()
         switch answer {
         case "1":
+            newWeapon(character: character)
             print("Vous avez echanger votre Arme")
-            
         case "2":
             print("Vous garder votre Arme")
         default:
             print("Votre choix n'est pas valide")
-            mysteryBox()
+            mysteryBox(character: character)
         }
     }
     func fight (attack: Player, receives: Player) {
         print("Choisi ton combattant :")
         let attackPlayer = attack.selectCharacter(team: attack.teamCharacter)
+        if nomberRounds % 4 == 0 {
+            mysteryBox(character: attackPlayer)
+        }
         print("choisi ton ennemi :")
         let receivesplayer = receives.selectCharacter(team: receives.teamCharacter)
         attackPlayer.attack(target: receivesplayer)
@@ -101,7 +102,7 @@ class Game {
                  print("Le nombre de tours : \(nomberRounds)")
         print("Les personnages morts sont :")
         for deadCharacter in arrayDeadPlayer {
-        print("Le personnage \(deadCharacter.name) qui est \(deadCharacter.type)")
+                print("Le personnage \(deadCharacter.name) qui est \(deadCharacter.type)")
         }
     }
 }

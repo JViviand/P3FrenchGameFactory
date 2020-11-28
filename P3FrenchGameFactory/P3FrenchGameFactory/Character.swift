@@ -6,7 +6,7 @@
 //
 
 import Foundation
-// le personnage a un nom, des point de vie et peu attaquer un autre adversaire avec une armes
+// le personnage a un Type, un nom, des point de vie et peu attaquer un autre adversaire avec une armes
 
 class Character {
     var type: String = ""
