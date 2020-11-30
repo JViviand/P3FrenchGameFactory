@@ -15,6 +15,8 @@ class Player {
         self.playerNumber = playerNumber
         }
     
+    // Cette fonction vas permettre au joueur de choisir un nouveau Nom a ces personnages
+    
     func nameCharacter() -> String {
         if let characterWrite = readLine() {
             if newNameCharacter.contains(characterWrite.lowercased()) {
@@ -26,6 +28,8 @@ class Player {
         return nameCharacter()
     }
 
+    // Cette fonction vas permettre au joueur de creer sa team de personnage
+    
     func createTeam() {
         
         while teamCharacter.count < 3 {
@@ -60,7 +64,9 @@ class Player {
             }
         }
     }
-//
+    
+    // Cette fonction vas permmettre au joueur de choisir son personnage qui vas attaquer et de choisir son ennemi a combattre
+    
     func selectCharacter(team: [Character]) -> Character  {
             for (index, character) in teamCharacter.enumerated() {
                 print("Le personnage \(index + 1) s'appelle \(character.name) et est un \(character.type)")

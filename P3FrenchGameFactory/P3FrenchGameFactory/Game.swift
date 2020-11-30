@@ -14,7 +14,7 @@ class Game {
         player1 = Player(playerNumber: 1)
         player2 = Player(playerNumber: 2)
     }
-    // fonction start
+    // Cette fonction vas permettre de faire fonctionner integralement le jeu sur le main
     func start() {
         print("Bienvenue dans un jeu de combat ou vous aller devoir choisir 3 personnage pour combattre : le dragon, l'elf ou le nain et gagner la partie !! attention dans le combat vous aller pouvoir tomber sur une boite mystere avec une nouvelle arme plus puissante, pret à combattre ?")
         player1.createTeam()
@@ -25,7 +25,7 @@ class Game {
         print("La Partie est fini..")
         statistics()
     }
-    // fonction pour verifier le nombre de Personnage en vie
+    // Cette fonction vas permettre de verifier si il reste des personnages du joueur en vie
     
     func playerAlive(player: Player) -> Bool {
         for(index, character) in player.teamCharacter.enumerated() {
@@ -39,7 +39,7 @@ class Game {
         }
         return true
     }
-    //fonction de combat entre un personnage du joueur 1 et un personnage du joueur 2
+    // Cette fonction vas permettre de lancer un combat entre les deux joueur si il reste des personnage en vie et de compter un tour a chaque attaque
     
     func combat() {
         while playerAlive(player: player1) && playerAlive(player: player2) {
@@ -54,11 +54,14 @@ class Game {
             }
         }
     }
-    // fonction qui propose au joueur de choisir ou non une nouvelle arme pour combattre
+    // Cette fonction vas permettre de generer une nouvelle armes
     
     func newWeapon(character: Character) {
         character.weapon = Weapon(name: "Magic", damage: 50)
     }
+    
+    // Cette fonction vas permettre d'afficher un coffre avec une nouvelle armes a choisir
+    
     func mysteryBox(character: Character) {
         print("""
             Vous avez trouver une Nouvelle Arme: Magic qui enleve 50 de dommage,
@@ -78,6 +81,9 @@ class Game {
             mysteryBox(character: character)
         }
     }
+    
+    // Cette fonction vas permettre de lancer le combat entre les deux joueur et d'afficher la fonction du coffre qui sera visible en modulo de 4, tout les 4 tours
+    
     func fight (attack: Player, receives: Player) {
         print("Choisi ton combattant :")
         let attackPlayer = attack.selectCharacter(team: attack.teamCharacter)
@@ -90,7 +96,7 @@ class Game {
         
     }
     
-    // statistique de combat
+    // Cette fonction vas permmetre d'afficher les statistique a la fin de la partie
     
     func statistics() {
         print("Ca y est toute l'equipe n'a plus de combattant !")
