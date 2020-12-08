@@ -20,7 +20,8 @@ class Character {
         self.lifePoint = lifePoint
         self.weapon = weapon
     }
-// La fonction d'attaque permet a un personnage d'infliger des dommages a l'adversaire aves son armes et verifie si le personnage est vivant
+    
+    // La fonction d'attaque permet a un personnage d'infliger des dommages a l'adversaire aves son armes et verifie si le personnage est vivant
     
     func attack (target: Character) {
         target.lifePoint -= self.weapon.damage

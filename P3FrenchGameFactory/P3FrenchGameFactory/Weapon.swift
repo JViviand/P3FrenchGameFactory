@@ -17,5 +17,4 @@ class Weapon {
         self.name = name
         self.damage = damage
     }
-    
 }

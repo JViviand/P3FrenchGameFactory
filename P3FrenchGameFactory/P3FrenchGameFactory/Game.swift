@@ -14,7 +14,9 @@ class Game {
         player1 = Player(playerNumber: 1)
         player2 = Player(playerNumber: 2)
     }
+    
     // Cette fonction vas permettre de faire fonctionner integralement le jeu sur le main
+    
     func start() {
         print("Bienvenue dans un jeu de combat ou vous aller devoir choisir 3 personnage pour combattre : le dragon, l'elf ou le nain et gagner la partie !! attention dans le combat vous aller pouvoir tomber sur une boite mystere avec une nouvelle arme plus puissante, pret à combattre ?")
         player1.createTeam()
@@ -25,6 +27,7 @@ class Game {
         print("La Partie est fini..")
         statistics()
     }
+    
     // Cette fonction vas permettre de verifier si il reste des personnages du joueur en vie
     
     func playerAlive(player: Player) -> Bool {
@@ -32,13 +35,14 @@ class Game {
             if character.lifePoint <= 0 {
                 arrayDeadPlayer.append(character)
                 player.teamCharacter.remove(at: index)
-                        }
+            }
             if  player.teamCharacter.count == 0 {
-                        return false
+                return false
             }
         }
         return true
     }
+    
     // Cette fonction vas permettre de lancer un combat entre les deux joueur si il reste des personnage en vie et de compter un tour a chaque attaque
     
     func combat() {
@@ -54,6 +58,7 @@ class Game {
             }
         }
     }
+    
     // Cette fonction vas permettre de generer une nouvelle armes
     
     func newWeapon(character: Character) {
@@ -100,15 +105,15 @@ class Game {
     
     func statistics() {
         print("Ca y est toute l'equipe n'a plus de combattant !")
-                if playerAlive(player: player1) {
-                    print( "Le joueur 1 a gagné !")
-                } else {
-                    print("Le joueur 2 a gagné !")
-                }
-                 print("Le nombre de tours : \(nomberRounds)")
+        if playerAlive(player: player1) {
+            print( "Le joueur 1 a gagné !")
+        } else {
+            print("Le joueur 2 a gagné !")
+        }
+        print("Le nombre de tours : \(nomberRounds)")
         print("Les personnages morts sont :")
         for deadCharacter in arrayDeadPlayer {
-                print("Le personnage \(deadCharacter.name) qui est \(deadCharacter.type)")
+            print("Le personnage \(deadCharacter.name) qui est \(deadCharacter.type)")
         }
     }
 }

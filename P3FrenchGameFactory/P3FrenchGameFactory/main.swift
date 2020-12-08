@@ -7,6 +7,6 @@
 
 import Foundation
 
-let test = Game()
-test.start()
+let game = Game()
+game.start()
 
